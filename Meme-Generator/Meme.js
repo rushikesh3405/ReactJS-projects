@@ -62,30 +62,3 @@ export default function Meme() {
     </main>
   );
 }
-
-// const[count,setCount] = React.useState(0);
-//   const [contact,setContact] = React.useState({
-//       fistName : "Rushikesh",
-//       lastName : "Patil",
-//       phone : "52463132",
-//       email : "rushikeshspatil.sit.comp@gmail.com",
-//       isFavourite : true
-//     });
-
-//     function tooggleFavourite(){
-//     setContact(prevContact => {
-//       return{
-//         ...prevContact,
-//         isFavourite : !prevContact.isFavourite
-//       }
-//     })
-//     }
-//     return(
-//     <div>
-//       <p>{contact.fistName}{contact.lastName}</p>
-//       <Star isFilled = {contact.isFavourite}/>
-//       <p>{contact.email}</p>
-//       <p>{contact.phone}</p>
-//     </div>
-//     )
-//     }
